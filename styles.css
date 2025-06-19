@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7e1e1; /* Soft blue background */
+}
+
+.card {
+  background-color: #b2e4e0; /* White card background */
+  border-radius: 2px; /* Rounded corners */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.card-img-top {
+  padding: 15px;
+  height: 300px;
+  width: auto;
+  object-fit: cover; /* Ensure image covers entire container */
+  border-radius: 2px 2px 0 0; /* Rounded corners for image */
+}
+
+.place__holder__image {
+  width: 25%;
+  margin: 20px auto; /* Center image horizontally */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #6200ff; /* Green title color */
+}
+
+.card-text {
+  font-size: 18px;
+  color: #000000; /* Dark gray text color */
+}
+
+.card-footer {
+  background-color: #c3ffb4; /* White footer background */
+  border-top: 1px solid #00fe55; /* Light gray border */
+  padding: 10px;
+  text-align: center;
+}
+
+.card-footer a {
+  color: #3498db; /* Soft blue link color */
+  text-decoration: none;
+}
+
+.card-footer a:hover {
+  color: #beffd9; /* Green hover color */
+}
